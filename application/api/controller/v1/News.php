@@ -12,6 +12,6 @@ class News{
     public function index()
     {
         header('Access-Control-Allow-Origin:*');
-        return 111122;
+        return 334;
     }
 }
