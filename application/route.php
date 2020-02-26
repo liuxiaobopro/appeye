@@ -10,7 +10,5 @@
 // +----------------------------------------------------------------------
 use think\route;
 
-Route::get('api/:ver/news', 'api/:ver.news/index');
-Route::put('api/:ver/news/:id', 'api/:ver.news/update');
-Route::delete('api/:ver/news/:id', 'api/:ver.news/delete');
-Route::resource('api/:ver/news', 'api/:ver.news');
+Route::resource('api/:ver/test', 'api/:ver.test');
+Route::resource('api/:ver/apinews', 'api/:ver.apinews');
